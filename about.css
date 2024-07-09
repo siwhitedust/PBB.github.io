@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+#containerNavbar{
+    background-color: #ee7488;
+    width: 100%;
+    min-height: 200px;
+}
+
+#divLogo{
+    position: relative;
+    left: 3cm;
+    float: left;
+    width: 20%;
+    max-height: 200px
+}
+
+#tombol{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    min-height: 200px;
+}
+
+.tombol{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 1cm;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.tombol:hover{
+    background-color: rgb(69, 189, 189);
+    transition: 0.3s all ease-in-out;
+}
+
+#garis{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 50%;
+}
+.containerBesar{
+    min-width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerKecil{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.h1CK{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.containerKecil2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+}
+
+#btnCK2{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#containerBesar2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#containerKecil2{
+    width: 90%;
+    height: auto;
+    display: none;
+    align-items: center;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+.imgCK2{
+    float: left;
+}
+
+.pCK2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 50%;
+    height: auto;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(5%);
+        opacity: 0;
+    }
+}
