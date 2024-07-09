@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerBesar{
+    background-color: pink;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1CB{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#containerTombol2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#btnCB2{
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: pink;
+    cursor: pointer;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#btnCB2:hover{
+    background-color: rgb(247, 131, 151);
+    transition: 0.3s all ease-in-out;
+}
+
+#containerBesar2{
+    width: 100%;
+    display: none;
+    justify-content: center
+}
+
+.containerKecil2{
+    width: 80%;
+    height: auto;
+    display: inline;
+    padding: 20px;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+.divGambarCK2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divGambar2CK2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divGambar3CK2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divGambar4CK2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gambar{
+    display: flex;
+    float: left;
+    margin: 10px;
+}
+
+@keyframes slideUp{
+    0%{
+        transform: translateY(5%);
+        opacity: 0;
+    }
+}
+
+#divBack{
+    width: 75%;
+    display: none;
+    justify-content: end;
+}
+
+.btnBack{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+}
