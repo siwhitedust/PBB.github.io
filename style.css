@@ -151,7 +151,22 @@
     background-color: #ee7488;
     text-decoration: none;
     color: black;
-    font-size: larger;
+    font-size: larger;  
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.containerBesar2{
+    background-color: #ee7488;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.teksFooter{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
 }

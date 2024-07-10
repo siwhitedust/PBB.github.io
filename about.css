@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 #containerNavbar{
@@ -50,7 +51,7 @@
     margin-bottom: 20px;
     opacity: 50%;
 }
-.containerBesar{
+#containerBesar{
     min-width: 100%;
     min-height: 300px;
     display: flex;
@@ -94,9 +95,10 @@
 }
 
 #containerKecil2{
-    width: 90%;
-    height: auto;
+    width: 60%;
+    height: 400px;
     display: none;
+    justify-content: center;
     align-items: center;
     animation-name: slideUp;
     animation-duration: 2s;
@@ -104,6 +106,9 @@
 
 .imgCK2{
     float: left;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
 }
 
 .pCK2{
